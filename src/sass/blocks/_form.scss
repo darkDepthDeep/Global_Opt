@@ -1,0 +1,67 @@
+.form {
+    min-height: 437px;
+    padding: 62px 0 79px 0;
+    background: url('../img/plane_bg.jpg') center (center / cover) no-repeat;
+    &__blocks {
+        width: 896px;
+        height: 297px;
+        margin: 0 auto;
+        background-color: rgba(225, 222, 215, 0.8);
+        button {
+            margin-top: 10px;
+        }
+    }
+    &__wrapper {
+        height: 68px;
+        background-color: #25333c;
+    }
+    &__text {
+        color: #fff;
+        text-align: center;
+        padding-top: 15px;
+        font-family: 'Roboto';
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subtext {
+        color: #fff;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 7px;
+        text-transform: uppercase;
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+    }
+    &__input {
+        margin-right: 4px;
+        input {
+            border: 1px solid #afaeaa;
+            border-radius: 20px;
+            width: 270px;
+            height: 47px;
+            outline: none;
+            font-size: 14px;
+            padding-left: 25px;
+        }
+    }
+    &__textarea {
+        margin-top: 6px;
+        textarea {
+            margin-left: 38px;
+            padding: 10px 0 0 25px;
+            font-size: 14px;  
+            width: 815px;
+            height: 73px;
+            border: 1px solid #afaeaa;
+            border-radius: 20px;
+            resize: none;
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.footer {
+    position: relative;
+    &__window {
+        position: absolute;
+        background: url('../icons/footer/window.png') center (center / cover) no-repeat;
+        width: 330px;
+        height: 158px;
+        left: 51%;
+        top: 21%
+    }
+    &__city {
+        margin-top: 18px;
+        margin-left: 55px;
+        color: $main-color;
+        font-weight: 700;
+    }
+    &__text {
+        margin-left: 55px;
+        a {
+            color: #000;
+            text-decoration: none;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__link {
+        margin-left: 55px;
+        color: $main-color;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__wrap {
+        background-color: #25333c;
+        height: 200px;
+        padding-top: 24px;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__subtitle {
+        margin-left: 34px;
+        color: #fff;
+        font-family: 'Roboto';
+        font-weight: 700;
+    }
+    &__contact {
+        display: flex;
+    }
+    &__subcontact {
+        margin-right: 17px;
+    }
+    &__questions {
+        font-family: 'Roboto';
+        font-size: 14px;
+        text-align: right;
+        color: #fff;
+    }
+    &__link-1 {
+        color: #fff;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 10px;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__divider {
+        display: block;
+        height: 1px;
+        background-color: #677177;
+        width: 100%;
+        margin-top: 26px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    &__text-1 {
+        color: #979da2;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__link-2 {
+        color: $main-color;
+        font-size: 13px;
+        font-weight: 300;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__text-2 {
+        color: #979da2;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,28 @@
+.benefits {
+    padding-top: 58px;
+    min-height: 589px;
+    background-color: #f3f3f3;
+    &__wrap {
+        display: flex;
+        margin-top: 36px;
+    }
+    &__icon {
+        height: 100%;
+        margin-top: 10px;
+        
+    }
+    &__item {
+        margin-left: 15px;
+    }
+    &__subtitle {
+        color: $main-color;
+        font-family: 'Roboto';
+        font-weight: 700;
+    }
+    &__text {
+        margin-top: 2px;
+        font-family: 'Roboto';
+        font-size: 15px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,60 @@
+.reviews {
+    padding: 51px 0 65px 0;
+    &__inner {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 30px;
+        img {
+            margin: 0 auto;
+        }
+        .slick-slide {
+            opacity: 0.4;
+            transform: scale(0.6)
+        }
+        .slick-arrow {
+            position: absolute;
+            z-index: 10;
+            }
+        .slick-arrow.slick-prev {
+            top: 30px;
+            left: 45%;
+            width: 14px;
+            height: 46px;
+            background: url('../icons/reviews/arrow_left.png');
+            font-size: 0;
+            border: none;
+        }
+        .slick-arrow.slick-next {
+            top: 30px;
+            left: 54.25%;
+            width: 14px;
+            height: 46px;
+            background: url('../icons/reviews/arrow_right.png');
+            font-size: 0;
+            border: none;
+        }
+        .slick-center {
+            opacity: 1;
+            transform: scale(1)
+        }
+    }
+    &__block {
+        margin: 0 20px;
+    }
+    &__name {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__text {
+        width: 600px;
+        margin-top: 3px;
+        font-size: 14px;
+        text-align: justify;
+        span {
+            display: block;
+            text-align: center;
+        }
+    }
+}

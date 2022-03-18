@@ -1,0 +1,21 @@
+.work {
+    padding: 51px 0;
+    min-height: 620px;
+    &__block {
+        margin-top: 35px;
+    }
+    &__descr {
+        color: $main-color;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__text {
+        margin-top: 5px;
+        font-family: 'Roboto';
+        font-size: 13px;
+        text-align: justify;
+    }
+}

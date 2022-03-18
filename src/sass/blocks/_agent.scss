@@ -1,0 +1,25 @@
+.agent {
+    background: url('../img/agent_bg.jpg') center (center / cover) no-repeat;
+    padding-top: 58px;
+    min-height: 340px;
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        color: #fff;
+        font-family: 'Roboto';
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 15px;
+    }
+    &__text {
+        color: #fff;
+        font-family: 'Roboto';
+        font-size: 17px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 18px;
+    }
+}

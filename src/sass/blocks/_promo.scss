@@ -1,0 +1,31 @@
+.promo {
+    background-color: #f3f3f3;
+    padding: 51px 0 46px 0;
+    &__wrapper {
+        margin-top: 33px;
+    }
+    &__icons {
+        display: block;
+        margin: 0 auto;
+    }
+    &__descr {
+        color: $main-color;
+        font-family: 'Roboto';
+        font-weight: 700;
+        text-align: center;
+        margin-top: 5px;
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-size: 16px;
+        text-align: center;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__block {
+        width: 300px;
+        margin-top: 30px;
+    }
+}

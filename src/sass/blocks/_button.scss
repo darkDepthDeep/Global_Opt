@@ -1,0 +1,29 @@
+.btn {
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 12px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px #c20000;
+        transition: all 0.1s;
+    }
+    &_1 {
+        display: block;
+        width: 230px;
+        height: 57px;
+        font-size: 16px;
+        margin: 0 auto;
+        margin-top: 42px;
+    }
+    &_2 {
+        display: block;
+        width: 180px;
+        margin: 0 auto;
+    }
+}

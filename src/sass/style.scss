@@ -1,0 +1,34 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/slick';
+
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', 'Roboto Condensed' sans-serif;
+}
+
+.divider {
+    width: 148px;
+    height: 2px;
+    background-color: $main-color;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/benefits';
+@import 'blocks/title';
+@import 'blocks/work';
+@import 'blocks/subtitle';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/manager';
+@import 'blocks/promo';
+@import 'blocks/reviews';
+@import 'blocks/form';
+@import 'blocks/footer';
+@import 'blocks/media';
